@@ -1,0 +1,135 @@
+{
+  "testName": "Health Care Survey",
+  "Questions": [
+    {
+      "id": 1,
+      "question": "What is your age range?",
+      "answers": [
+        {
+          "option": "a",
+          "value": "Less than 15 years",
+          "points": 2
+        },
+        {
+          "option": "b",
+          "value": "16 years to 25 years",
+          "points": 4
+        },
+        {
+          "option": "c",
+          "value": "26 years to 35 years",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is your weight range?",
+      "answers": [
+        {
+          "option": "a",
+          "value": "Less than 20 kg",
+          "points": 2
+        },
+        {
+          "option": "b",
+          "value": "21 kg to 40 kg",
+          "points": 4
+        },
+        {
+          "option": "c",
+          "value": "41 kg to 65 kg",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is your calorie intake each day?",
+      "answers": [
+        {
+          "option": "a",
+          "value": "Less than 1500 calories",
+          "points": 2
+        },
+        {
+          "option": "b",
+          "value": "1500 to 2000 calories",
+          "points": 4
+        },
+        {
+          "option": "c",
+          "value": "More than 2000 calories",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is your meal combination?",
+      "answers": [
+        {
+          "option": "a",
+          "value": "Breakfast and Dinner",
+          "points": 2
+        },
+        {
+          "option": "b",
+          "value": "Lunch and Dinner",
+          "points": 4
+        },
+        {
+          "option": "c",
+          "value": "Breakfast and Lunch",
+          "points": 6
+        },
+        {
+          "option": "d",
+          "value": "Breakfast, Lunch and Dinner",
+          "points": 8
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "How long do you exercise each day?",
+      "answers": [
+        {
+          "option": "a",
+          "value": "Do not participate in physical exercise",
+          "points": 12
+        },
+        {
+          "option": "b",
+          "value": "10 to 20 miniutes per day",
+          "points": 8
+        },
+        {
+          "option": "c",
+          "value": "20 to 30 miniutes per day",
+          "points": 6
+        },
+        {
+          "option": "d",
+          "value": "30 to 40 miniutes per day",
+          "points": 4
+        },
+        {
+          "option": "e",
+          "value": "40 to 50 miniutes per day",
+          "points": 2
+        },
+        {
+          "option": "f",
+          "value": "More than 1 hour per day",
+          "points": 0
+        }
+      ]
+    }
+  ],
+  "Suggestions": {
+    "0 to 14": "Have to increase calorie intake",
+    "15 to 29": "Right calorie intake",
+    "30 to 40": "Have to decrease calorie intake"
+  }
+}

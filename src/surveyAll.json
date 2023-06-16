@@ -1,0 +1,450 @@
+{
+  "Survey 1": {
+    "testName": "Health Care Survey",
+    "Questions": [
+      {
+        "id": 1,
+        "question": "What is your age range?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "Less than 15 years",
+            "points": 2
+          },
+          {
+            "option": "b",
+            "value": "16 years to 25 years",
+            "points": 4
+          },
+          {
+            "option": "c",
+            "value": "26 years to 35 years",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "What is your weight range?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "Less than 20 kg",
+            "points": 2
+          },
+          {
+            "option": "b",
+            "value": "21 kg to 40 kg",
+            "points": 4
+          },
+          {
+            "option": "c",
+            "value": "41 kg to 65 kg",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "What is your calorie intake each day?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "Less than 1500 calories",
+            "points": 2
+          },
+          {
+            "option": "b",
+            "value": "1500 to 2000 calories",
+            "points": 4
+          },
+          {
+            "option": "c",
+            "value": "More than 2000 calories",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "What is your exercise frequency?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "None",
+            "points": 2
+          },
+          {
+            "option": "b",
+            "value": "1-2 times per week",
+            "points": 4
+          },
+          {
+            "option": "c",
+            "value": "3-5 times per week",
+            "points": 6
+          },
+          {
+            "option": "d",
+            "value": "More than 5 times per week",
+            "points": 8
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "What is your stress level?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "Low",
+            "points": 2
+          },
+          {
+            "option": "b",
+            "value": "Moderate",
+            "points": 4
+          },
+          {
+            "option": "c",
+            "value": "High",
+            "points": 6
+          },
+          {
+            "option": "d",
+            "value": "Very high",
+            "points": 8
+          },
+          {
+            "option": "e",
+            "value": "Extreme",
+            "points": 10
+          }
+        ]
+      }
+    ],
+    "Suggestions": {
+      "0 to 14": "Have to increase calorie intake",
+      "15 to 29": "Right calorie intake",
+      "30 to 40": "Have to decrease calorie intake"
+    }
+  },
+  "Survey 2": {
+    "testName": "Study Habits Survey",
+    "Questions": [
+      {
+        "id": 1,
+        "question": "How many hours do you study each day?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "Less than 1 hour",
+            "points": 2
+          },
+          {
+            "option": "b",
+            "value": "1-2 hours",
+            "points": 4
+          },
+          {
+            "option": "c",
+            "value": "3-4 hours",
+            "points": 6
+          },
+          {
+            "option": "d",
+            "value": "More than 4 hours",
+            "points": 8
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "What is your preferred study environment?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "Quiet library",
+            "points": 2
+          },
+          {
+            "option": "b",
+            "value": "Cafe with background noise",
+            "points": 4
+          },
+          {
+            "option": "c",
+            "value": "At home in a silent room",
+            "points": 6
+          },
+          {
+            "option": "d",
+            "value": "In a group study session",
+            "points": 8
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Do you use any study techniques or strategies?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "Yes",
+            "points": 4
+          },
+          {
+            "option": "b",
+            "value": "No",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "How often do you take breaks while studying?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "Frequently (every 30 minutes)",
+            "points": 6
+          },
+          {
+            "option": "b",
+            "value": "Occasionally (every 1 hour)",
+            "points": 4
+          },
+          {
+            "option": "c",
+            "value": "Rarely (every 2 hours or more)",
+            "points": 2
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Do you feel motivated to study?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "Yes, always",
+            "points": 8
+          },
+          {
+            "option": "b",
+            "value": "Most of the time",
+            "points": 6
+          },
+          {
+            "option": "c",
+            "value": "Sometimes",
+            "points": 4
+          },
+          {
+            "option": "d",
+            "value": "Rarely",
+            "points": 2
+          },
+          {
+            "option": "e",
+            "value": "No, never",
+            "points": 0
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "What time of the day do you find yourself most productive for studying?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "Morning",
+            "points": 1
+          },
+          {
+            "option": "b",
+            "value": "Afternoon",
+            "points": 4
+          },
+          {
+            "option": "c",
+            "value": "Evening",
+            "points": 2
+          },
+          {
+            "option": "d",
+            "value": "Night",
+            "points": 6
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "How do you manage distractions while studying?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "Turn off notifications and put away electronic devices",
+            "points": 8
+          },
+          {
+            "option": "b",
+            "value": "Use apps or browser extensions to block distracting websites",
+            "points": 6
+          },
+          {
+            "option": "c",
+            "value": "Create a designated study space free from distractions",
+            "points": 4
+          },
+          {
+            "option": "d",
+            "value": "Struggle to manage distractions effectively",
+            "points": 2
+          }
+        ]
+      }
+    ],
+    "Suggestions": {
+      "0 to 14": "Consider seeking motivation and finding suitable study techniques.",
+      "15 to 24": "Maintain your current study habits and techniques.",
+      "25 to 34": "Ensure you take regular breaks and find your optimal study time. Manage distractions effectively for better focus.",
+      "35 to 40": "Explore advanced study techniques, such as active learning or spaced repetition, to enhance your learning outcomes."
+    }
+  },
+  "Survey 3": {
+    "testName": "Gaming Habits Survey",
+    "Questions": [
+      {
+        "id": 1,
+        "question": "How many hours do you play video games each day?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "Less than 1 hour",
+            "points": 2
+          },
+          {
+            "option": "b",
+            "value": "1-2 hours",
+            "points": 4
+          },
+          {
+            "option": "c",
+            "value": "3-4 hours",
+            "points": 6
+          },
+          {
+            "option": "d",
+            "value": "More than 4 hours",
+            "points": 8
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "What genre of games do you prefer?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "Action",
+            "points": 8
+          },
+          {
+            "option": "b",
+            "value": "Adventure",
+            "points": 6
+          },
+          {
+            "option": "c",
+            "value": "Role-playing",
+            "points": 2
+          },
+          {
+            "option": "d",
+            "value": "Strategy",
+            "points": 0
+          },
+          {
+            "option": "e",
+            "value": "Sports",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Do you play multiplayer games?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "Yes",
+            "points": 6
+          },
+          {
+            "option": "b",
+            "value": "No",
+            "points": 4
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "How often do you take breaks while gaming?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "Frequently (every 30 minutes)",
+            "points": 4
+          },
+          {
+            "option": "b",
+            "value": "Occasionally (every 1 hour)",
+            "points": 6
+          },
+          {
+            "option": "c",
+            "value": "Rarely (every 2 hours or more)",
+            "points": 8
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Do you feel gaming helps you relax or relieve stress?",
+        "answers": [
+          {
+            "option": "a",
+            "value": "Yes, always",
+            "points": 8
+          },
+          {
+            "option": "b",
+            "value": "Most of the time",
+            "points": 6
+          },
+          {
+            "option": "c",
+            "value": "Sometimes",
+            "points": 4
+          },
+          {
+            "option": "d",
+            "value": "Rarely",
+            "points": 2
+          },
+          {
+            "option": "e",
+            "value": "No, never",
+            "points": 0
+          }
+        ]
+      }
+    ],
+    "Suggestions": {
+      "0 to 14": "Consider limiting gaming time and finding other ways to relax and relieve stress.",
+      "15 to 29": "Maintain a balanced approach to gaming and ensure you take regular breaks.",
+      "30 to 40": "Monitor your gaming habits closely and ensure they do not negatively impact other areas of your life."
+    }
+  }
+}

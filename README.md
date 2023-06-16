@@ -1,0 +1,2 @@
+# Project description
+A React app which reads multiple surveys from a JSON file and creates the seperate surveys in the home page. The user will get an email after taking a survey and the admin will also be notified through an email. The email sending service has been implemented using an email service provider, EmailJS. 
