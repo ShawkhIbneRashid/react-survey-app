@@ -15,9 +15,9 @@ function Modal({ onClose, suggestionText, selectedQuestions }) {
     const [name, setName] = useState('');
     const [phoneNumber, setPhoneNumber] = useState('');
     const [email, setEmail] = useState('');
-    const fromMessage = 'Shawkh';
+    const fromMessage = '';
     const formRef = useRef();
-    const fromEmail = 'si.rashid13@gmail.com';
+    const fromEmail = '';
 
     const handleNameChange = (event) => {
         setName(event.target.value);
