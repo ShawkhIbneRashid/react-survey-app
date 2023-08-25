@@ -1,450 +1,698 @@
 {
   "Survey 1": {
-    "testName": "Health Care Survey",
+    "Description": "This survey is about assessing how well a person knows the concepts of Java. It asks questions whether you know concepts, such as multi-threading and java servlets.",
     "Questions": [
       {
+        "answers": [
+          {
+            "option": "a",
+            "points": 2,
+            "value": "Beginner",
+            "id": 24421
+          },
+          {
+            "option": "b",
+            "points": 4,
+            "value": "Intermediate",
+            "id": 24422
+          },
+          {
+            "option": "c",
+            "points": 6,
+            "value": "Advanced",
+            "id": 24423
+          }
+        ],
+        "id": 0,
+        "question": "What is your Java programming skill level?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 1,
+            "value": "Yes",
+            "id": 24424
+          },
+          {
+            "option": "b",
+            "points": 0,
+            "value": "No",
+            "id": 24425
+          }
+        ],
         "id": 1,
-        "question": "What is your age range?",
+        "question": "Have you used Java's Multithreading?"
+      },
+      {
         "answers": [
           {
             "option": "a",
-            "value": "Less than 15 years",
-            "points": 2
+            "points": 1,
+            "value": "Yes",
+            "id": 24426
           },
           {
             "option": "b",
-            "value": "16 years to 25 years",
-            "points": 4
-          },
-          {
-            "option": "c",
-            "value": "26 years to 35 years",
-            "points": 6
+            "points": 0,
+            "value": "No",
+            "id": 24427
           }
-        ]
-      },
-      {
+        ],
         "id": 2,
-        "question": "What is your weight range?",
+        "question": "Have you worked with Java Servlets?"
+      },
+      {
         "answers": [
           {
             "option": "a",
-            "value": "Less than 20 kg",
-            "points": 2
+            "points": 2,
+            "value": "1-3 years",
+            "id": 24428
           },
           {
             "option": "b",
-            "value": "21 kg to 40 kg",
-            "points": 4
+            "points": 4,
+            "value": "4-6 years",
+            "id": 24429
           },
           {
             "option": "c",
-            "value": "41 kg to 65 kg",
-            "points": 6
+            "points": 6,
+            "value": "More than 6 years",
+            "id": 24410
           }
-        ]
-      },
-      {
+        ],
         "id": 3,
-        "question": "What is your calorie intake each day?",
+        "question": "How many years of experience do you have in Java programming?"
+      },
+      {
         "answers": [
           {
             "option": "a",
-            "value": "Less than 1500 calories",
-            "points": 2
+            "points": 2,
+            "value": "IDEs like Eclipse or IntelliJ",
+            "id": 24411
           },
           {
             "option": "b",
-            "value": "1500 to 2000 calories",
-            "points": 4
+            "points": 4,
+            "value": "Command-line tools",
+            "id": 24412
           },
           {
             "option": "c",
-            "value": "More than 2000 calories",
-            "points": 6
+            "points": 6,
+            "value": "Both IDEs and Command-line tools",
+            "id": 24412
           }
-        ]
-      },
-      {
+        ],
         "id": 4,
-        "question": "What is your exercise frequency?",
-        "answers": [
-          {
-            "option": "a",
-            "value": "None",
-            "points": 2
-          },
-          {
-            "option": "b",
-            "value": "1-2 times per week",
-            "points": 4
-          },
-          {
-            "option": "c",
-            "value": "3-5 times per week",
-            "points": 6
-          },
-          {
-            "option": "d",
-            "value": "More than 5 times per week",
-            "points": 8
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "question": "What is your stress level?",
-        "answers": [
-          {
-            "option": "a",
-            "value": "Low",
-            "points": 2
-          },
-          {
-            "option": "b",
-            "value": "Moderate",
-            "points": 4
-          },
-          {
-            "option": "c",
-            "value": "High",
-            "points": 6
-          },
-          {
-            "option": "d",
-            "value": "Very high",
-            "points": 8
-          },
-          {
-            "option": "e",
-            "value": "Extreme",
-            "points": 10
-          }
-        ]
+        "question": "Which development environment do you prefer for Java programming?"
       }
     ],
     "Suggestions": {
-      "0 to 14": "Have to increase calorie intake",
-      "15 to 29": "Right calorie intake",
-      "30 to 40": "Have to decrease calorie intake"
-    }
+      "0 to 9": "Consider learning more about Java programming basics.",
+      "10 to 19": "Continue building your Java programming skills and exploring advanced concepts.",
+      "20 to 30": "You have a solid foundation in Java programming. Keep learning and working on projects."
+    },
+    "ImageURL": "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png",
+    "testName": "Java Survey"
   },
   "Survey 2": {
-    "testName": "Study Habits Survey",
+    "Description": "This survey is about assessing how well a person knows the concepts of Python. It asks questions whether you know concepts, such as web development and libraries.",
+    "ImageURL": "https://cdn.rebrickable.com/media/thumbs/mocs/moc-91667.jpg/1000x800.jpg",
     "Questions": [
       {
-        "id": 1,
-        "question": "How many hours do you study each day?",
         "answers": [
           {
             "option": "a",
-            "value": "Less than 1 hour",
-            "points": 2
+            "points": 2,
+            "value": "Beginner",
+            "id": 24413
           },
           {
             "option": "b",
-            "value": "1-2 hours",
-            "points": 4
+            "points": 4,
+            "value": "Intermediate",
+            "id": 24414
           },
           {
             "option": "c",
-            "value": "3-4 hours",
-            "points": 6
-          },
-          {
-            "option": "d",
-            "value": "More than 4 hours",
-            "points": 8
+            "points": 6,
+            "value": "Advanced",
+            "id": 24415
           }
-        ]
+        ],
+        "id": 0,
+        "question": "What is your Python programming skill level?"
       },
       {
-        "id": 2,
-        "question": "What is your preferred study environment?",
         "answers": [
           {
             "option": "a",
-            "value": "Quiet library",
-            "points": 2
-          },
-          {
-            "option": "b",
-            "value": "Cafe with background noise",
-            "points": 4
-          },
-          {
-            "option": "c",
-            "value": "At home in a silent room",
-            "points": 6
-          },
-          {
-            "option": "d",
-            "value": "In a group study session",
-            "points": 8
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "question": "Do you use any study techniques or strategies?",
-        "answers": [
-          {
-            "option": "a",
+            "points": 1,
             "value": "Yes",
-            "points": 4
+            "id": 24416
           },
           {
             "option": "b",
+            "points": 0,
             "value": "No",
-            "points": 2
+            "id": 24417
           }
-        ]
+        ],
+        "id": 1,
+        "question": "Have you used Python for web development (e.g., Django, Flask)?"
       },
       {
+        "answers": [
+          {
+            "option": "a",
+            "points": 1,
+            "value": "Yes",
+            "id": 24418
+          },
+          {
+            "option": "b",
+            "points": 0,
+            "value": "No",
+            "id": 24419
+          }
+        ],
+        "id": 2,
+        "question": "Have you worked with data analysis libraries in Python (e.g., pandas, NumPy)?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 2,
+            "value": "1-3 years",
+            "id": 24420
+          },
+          {
+            "option": "b",
+            "points": 4,
+            "value": "4-6 years",
+            "id": 24421
+          },
+          {
+            "option": "c",
+            "points": 6,
+            "value": "More than 6 years",
+            "id": 24422
+          }
+        ],
+        "id": 3,
+        "question": "How many years of experience do you have in Python programming?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 2,
+            "value": "IDEs like PyCharm or Visual Studio Code",
+            "id": 24423
+          },
+          {
+            "option": "b",
+            "points": 4,
+            "value": "Command-line tools",
+            "id": 24425
+          },
+          {
+            "option": "c",
+            "points": 6,
+            "value": "Both IDEs and Command-line tools",
+            "id": 24426
+          }
+        ],
         "id": 4,
-        "question": "How often do you take breaks while studying?",
-        "answers": [
-          {
-            "option": "a",
-            "value": "Frequently (every 30 minutes)",
-            "points": 6
-          },
-          {
-            "option": "b",
-            "value": "Occasionally (every 1 hour)",
-            "points": 4
-          },
-          {
-            "option": "c",
-            "value": "Rarely (every 2 hours or more)",
-            "points": 2
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "question": "Do you feel motivated to study?",
-        "answers": [
-          {
-            "option": "a",
-            "value": "Yes, always",
-            "points": 8
-          },
-          {
-            "option": "b",
-            "value": "Most of the time",
-            "points": 6
-          },
-          {
-            "option": "c",
-            "value": "Sometimes",
-            "points": 4
-          },
-          {
-            "option": "d",
-            "value": "Rarely",
-            "points": 2
-          },
-          {
-            "option": "e",
-            "value": "No, never",
-            "points": 0
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "question": "What time of the day do you find yourself most productive for studying?",
-        "answers": [
-          {
-            "option": "a",
-            "value": "Morning",
-            "points": 1
-          },
-          {
-            "option": "b",
-            "value": "Afternoon",
-            "points": 4
-          },
-          {
-            "option": "c",
-            "value": "Evening",
-            "points": 2
-          },
-          {
-            "option": "d",
-            "value": "Night",
-            "points": 6
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "question": "How do you manage distractions while studying?",
-        "answers": [
-          {
-            "option": "a",
-            "value": "Turn off notifications and put away electronic devices",
-            "points": 8
-          },
-          {
-            "option": "b",
-            "value": "Use apps or browser extensions to block distracting websites",
-            "points": 6
-          },
-          {
-            "option": "c",
-            "value": "Create a designated study space free from distractions",
-            "points": 4
-          },
-          {
-            "option": "d",
-            "value": "Struggle to manage distractions effectively",
-            "points": 2
-          }
-        ]
+        "question": "Which development environment do you prefer for Python programming?"
       }
     ],
     "Suggestions": {
-      "0 to 14": "Consider seeking motivation and finding suitable study techniques.",
-      "15 to 24": "Maintain your current study habits and techniques.",
-      "25 to 34": "Ensure you take regular breaks and find your optimal study time. Manage distractions effectively for better focus.",
-      "35 to 40": "Explore advanced study techniques, such as active learning or spaced repetition, to enhance your learning outcomes."
-    }
+      "0 to 9": "Consider learning more about Python programming basics.",
+      "10 to 19": "Continue building your Python programming skills and exploring advanced concepts.",
+      "20 to 30": "You have a solid foundation in Python"
+    },
+    "testName": "Python Survey"
   },
   "Survey 3": {
-    "testName": "Gaming Habits Survey",
+    "Description": "This survey is about assessing how well a person knows the concepts of testing. It asks questions whether you know concepts, such as manual testing and documentation.",
+    "ImageURL": "https://t3.ftcdn.net/jpg/02/76/56/08/360_F_276560883_lqejdalZAZcXDfCAFDFUnTe9ktOXSRD4.jpg",
     "Questions": [
       {
-        "id": 1,
-        "question": "How many hours do you play video games each day?",
         "answers": [
           {
             "option": "a",
-            "value": "Less than 1 hour",
-            "points": 2
+            "points": 2,
+            "value": "Beginner",
+            "id": 24427
           },
           {
             "option": "b",
-            "value": "1-2 hours",
-            "points": 4
+            "points": 4,
+            "value": "Intermediate",
+            "id": 24428
           },
           {
             "option": "c",
-            "value": "3-4 hours",
-            "points": 6
-          },
-          {
-            "option": "d",
-            "value": "More than 4 hours",
-            "points": 8
+            "points": 6,
+            "value": "Advanced",
+            "id": 24429
           }
-        ]
+        ],
+        "id": 0,
+        "question": "What is your experience level in manual testing?"
       },
       {
-        "id": 2,
-        "question": "What genre of games do you prefer?",
         "answers": [
           {
             "option": "a",
-            "value": "Action",
-            "points": 8
-          },
-          {
-            "option": "b",
-            "value": "Adventure",
-            "points": 6
-          },
-          {
-            "option": "c",
-            "value": "Role-playing",
-            "points": 2
-          },
-          {
-            "option": "d",
-            "value": "Strategy",
-            "points": 0
-          },
-          {
-            "option": "e",
-            "value": "Sports",
-            "points": 4
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "question": "Do you play multiplayer games?",
-        "answers": [
-          {
-            "option": "a",
+            "points": 1,
             "value": "Yes",
-            "points": 6
+            "id": 24430
+          },
+          {
+            "option": "b",
+            "points": 0,
+            "value": "No",
+            "id": 24431
+          }
+        ],
+        "id": 1,
+        "question": "Have you worked on test case documentation?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 1,
+            "value": "Yes",
+            "id": 24432
+          },
+          {
+            "option": "b",
+            "points": 0,
+            "value": "No",
+            "id": 24433
+          }
+        ],
+        "id": 2,
+        "question": "Do you have experience in performing regression testing?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 2,
+            "value": "1-3 years",
+            "id": 24434
+          },
+          {
+            "option": "b",
+            "points": 4,
+            "value": "4-6 years",
+            "id": 24435
+          },
+          {
+            "option": "c",
+            "points": 6,
+            "value": "More than 6 years",
+            "id": 24436
+          }
+        ],
+        "id": 3,
+        "question": "How many years of experience do you have in manual testing?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 2,
+            "value": "Manual testing tools like Selenium or JIRA",
+            "id": 24437
+          },
+          {
+            "option": "b",
+            "points": 4,
+            "value": "Command-line tools",
+            "id": 24438
+          },
+          {
+            "option": "c",
+            "points": 6,
+            "value": "Both manual testing tools and Command-line tools",
+            "id": 24439
+          }
+        ],
+        "id": 4,
+        "question": "Which tools or environments do you use for manual testing?"
+      }
+    ],
+    "Suggestions": {
+      "0 to 9": "Consider learning more about manual testing.",
+      "10 to 19": "Continue building your manual testing skills and exploring advanced concepts.",
+      "20 to 30": "You have a solid foundation in manual testing"
+    },
+    "testName": "Manual Testing Survey"
+  },
+  "Survey 4": {
+    "Description": "This survey is designed to gauge your familiarity with JavaScript concepts. It includes questions about your experience with topics like asynchronous programming and DOM manipulation.",
+    "Questions": [
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 2,
+            "value": "Beginner",
+            "id": 24440
+          },
+          {
+            "option": "b",
+            "points": 4,
+            "value": "Intermediate",
+            "id": 24441
+          },
+          {
+            "option": "c",
+            "points": 6,
+            "value": "Advanced",
+            "id": 24442
+          }
+        ],
+        "id": 0,
+        "question": "What is your JavaScript programming skill level?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 1,
+            "value": "Yes",
+            "id": 24443
+          },
+          {
+            "option": "b",
+            "points": 0,
+            "value": "No",
+            "id": 24444
+          }
+        ],
+        "id": 1,
+        "question": "Have you worked with asynchronous programming in JavaScript?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 1,
+            "value": "Yes",
+            "id": 24445
+          },
+          {
+            "option": "b",
+            "points": 0,
+            "value": "No",
+            "id": 24446
+          }
+        ],
+        "id": 2,
+        "question": "Are you familiar with manipulating the Document Object Model (DOM) using JavaScript?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 2,
+            "value": "1-3 years",
+            "id": 24447
+          },
+          {
+            "option": "b",
+            "points": 4,
+            "value": "4-6 years",
+            "id": 24448
+          },
+          {
+            "option": "c",
+            "points": 6,
+            "value": "More than 6 years",
+            "id": 24449
+          }
+        ],
+        "id": 3,
+        "question": "How many years of experience do you have in JavaScript programming?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 2,
+            "value": "Integrated Development Environments (IDEs)",
+            "id": 24450
+          },
+          {
+            "option": "b",
+            "points": 4,
+            "value": "Text editors",
+            "id": 24451
+          },
+          {
+            "option": "c",
+            "points": 6,
+            "value": "Both IDEs and Text editors",
+            "id": 24452
+          }
+        ],
+        "id": 4,
+        "question": "Which development environment do you prefer for JavaScript programming?"
+      }
+    ],
+    "Suggestions": {
+      "0 to 9": "Consider learning more about JavaScript fundamentals and practice coding regularly.",
+      "10 to 19": "Continue exploring JavaScript's advanced topics and real-world applications.",
+      "20 to 30": "You possess a strong command of JavaScript. Keep honing your skills and experimenting with complex projects."
+    },
+    "ImageURL": "https://www.freepnglogos.com/uploads/javascript-png/png-javascript-badge-picture-8.png",
+    "testName": "JavaScript Survey"
+  },
+  "Survey 5": {
+    "Description": "This survey aims to assess your knowledge and experience in the field of web development. It includes questions about aspects of web development, including front-end and back-end.",
+    "Questions": [
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 2,
+            "value": "Beginner",
+            "id": 24453
+          },
+          {
+            "option": "b",
+            "points": 4,
+            "value": "Intermediate",
+            "id": 24454
+          },
+          {
+            "option": "c",
+            "points": 6,
+            "value": "Advanced",
+            "id": 24455
+          }
+        ],
+        "id": 0,
+        "question": "How would you rate your overall expertise in web development?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 1,
+            "value": "Yes",
+            "id": 24456
+          },
+          {
+            "option": "b",
+            "points": 0,
+            "value": "No",
+            "id": 24457
+          }
+        ],
+        "id": 1,
+        "question": "Have you worked extensively with HTML and CSS?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 1,
+            "value": "Yes",
+            "id": 24458
+          },
+          {
+            "option": "b",
+            "points": 0,
+            "value": "No",
+            "id": 24459
+          }
+        ],
+        "id": 2,
+        "question": "Are you familiar with JavaScript and its role in web development?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 1,
+            "value": "Yes",
+            "id": 24460
+          },
+          {
+            "option": "b",
+            "points": 0,
+            "value": "No",
+            "id": 24461
+          }
+        ],
+        "id": 3,
+        "question": "Have you worked on any front-end frameworks such as React, Angular, or Vue?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 1,
+            "value": "Yes",
+            "id": 24462
+          },
+          {
+            "option": "b",
+            "points": 0,
+            "value": "No",
+            "id": 24463
+          }
+        ],
+        "id": 4,
+        "question": "Have you developed server-side applications using technologies like Node.js, Django, or Ruby on Rails?"
+      }
+    ],
+    "Suggestions": {
+      "0 to 4": "You have a solid starting point for web development. Consider focusing on learning fundamental concepts and technologies.",
+      "5 to 9": "Continue expanding your web development skills by delving deeper into various technologies and frameworks.",
+      "10 to 15": "Your web development expertise is considerable. Keep exploring advanced topics and consider contributing to real-world projects."
+    },
+    "ImageURL": "https://static.vecteezy.com/system/resources/thumbnails/004/908/013/small/coding-logo-design-template-free-vector.jpg",
+    "testName": "Web Development Survey"
+  },
+  "Survey 6": {
+    "Description": "This survey is designed to assess your experience and knowledge in the field of software development. It includes questions related to programming languages and software design.",
+    "Questions": [
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 2,
+            "value": "Beginner",
+            "id": 24323
+          },
+          {
+            "option": "b",
+            "points": 4,
+            "value": "Intermediate",
+            "id": 24324
+          },
+          {
+            "option": "c",
+            "points": 6,
+            "value": "Advanced",
+            "id": 24325
+          }
+        ],
+        "id": 0,
+        "question": "How would you rate your overall expertise in software development?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 1,
+            "value": "Yes",
+            "id": 24424
+          },
+          {
+            "option": "b",
+            "points": 0,
+            "value": "No",
+            "id": 24425
+          }
+        ],
+        "id": 1,
+        "question": "Have you worked with multiple programming languages?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 1,
+            "value": "Yes",
+            "id": 24926
+          },
+          {
+            "option": "b",
+            "points": 0,
+            "value": "No",
+            "id": 24927
+          }
+        ],
+        "id": 2,
+        "question": "Are you familiar with software design principles and patterns?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 1,
+            "value": "Yes",
+            "id": 24726
+          },
+          {
+            "option": "b",
+            "points": 0,
+            "value": "No",
+            "id": 24245
+          }
+        ],
+        "id": 3,
+        "question": "Have you used version control systems like Git?"
+      },
+      {
+        "answers": [
+          {
+            "option": "a",
+            "points": 1,
+            "value": "Yes",
+            "id": 24523
           },
           {
             "option": "b",
             "value": "No",
-            "points": 4
+            "points": 0,
+            "id": 52163
           }
-        ]
-      },
-      {
+        ],
         "id": 4,
-        "question": "How often do you take breaks while gaming?",
-        "answers": [
-          {
-            "option": "a",
-            "value": "Frequently (every 30 minutes)",
-            "points": 4
-          },
-          {
-            "option": "b",
-            "value": "Occasionally (every 1 hour)",
-            "points": 6
-          },
-          {
-            "option": "c",
-            "value": "Rarely (every 2 hours or more)",
-            "points": 8
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "question": "Do you feel gaming helps you relax or relieve stress?",
-        "answers": [
-          {
-            "option": "a",
-            "value": "Yes, always",
-            "points": 8
-          },
-          {
-            "option": "b",
-            "value": "Most of the time",
-            "points": 6
-          },
-          {
-            "option": "c",
-            "value": "Sometimes",
-            "points": 4
-          },
-          {
-            "option": "d",
-            "value": "Rarely",
-            "points": 2
-          },
-          {
-            "option": "e",
-            "value": "No, never",
-            "points": 0
-          }
-        ]
+        "question": "Are you familiar with Agile, Scrum, or other software development methodologies?"
       }
     ],
     "Suggestions": {
-      "0 to 14": "Consider limiting gaming time and finding other ways to relax and relieve stress.",
-      "15 to 29": "Maintain a balanced approach to gaming and ensure you take regular breaks.",
-      "30 to 40": "Monitor your gaming habits closely and ensure they do not negatively impact other areas of your life."
-    }
+      "0 to 4": "You are on the path to becoming a skilled software developer. Focus on honing your programming skills and exploring software design concepts.",
+      "5 to 9": "Continue expanding your software development skills by exploring new languages, design patterns, and version control practices.",
+      "10 to 15": "Your software development expertise is impressive. Keep learning about advanced software engineering concepts and consider contributing to open-source projects."
+    },
+    "ImageURL": "https://i.pinimg.com/originals/06/bc/e8/06bce81285badba0c3becd273ca67f95.png",
+    "testName": "Software Development Survey"
   }
 }

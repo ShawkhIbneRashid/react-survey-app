@@ -1,10 +1,11 @@
 import React, { useState, useRef } from 'react';
 import 'bulma/css/bulma.css';
 import emailjs from '@emailjs/browser';
-
-function Modal({ onClose, suggestionText, selectedQuestions }) {
+// Modal containing user name, phone number and email address. Appears after submitting a survey
+function Modal({ onClose, suggestionText, selectedQuestions, handleEmailSent }) {
     var answerVals = "";
     const delimiter = ": ";
+    // Collect all the answers to send to admin
     for (let i = 0; i < Object.keys(selectedQuestions).length; i++) {
         answerVals = answerVals + "Question " + (i + 1) + "\n";
         answerVals = answerVals + Object.values(selectedQuestions)[i].split(delimiter)[0] + "\n" + "Response" + "\n";
@@ -12,12 +13,13 @@ function Modal({ onClose, suggestionText, selectedQuestions }) {
         if (i != Object.keys(selectedQuestions).length - 1)
             answerVals = answerVals + "\n";
     }
+    // State variables
     const [name, setName] = useState('');
     const [phoneNumber, setPhoneNumber] = useState('');
     const [email, setEmail] = useState('');
-    const fromMessage = process.env.fromMessage;
+    const fromMessage = process.env.REACT_APP_FROM_MESSAGE;
     const formRef = useRef();
-    const fromEmail = process.env.fromEmail;
+    const fromEmail = process.env.REACT_APP_FROM_EMAIL;
 
     const handleNameChange = (event) => {
         setName(event.target.value);
@@ -31,9 +33,9 @@ function Modal({ onClose, suggestionText, selectedQuestions }) {
         setEmail(event.target.value);
     };
 
+    // Sends email to the user and the admin by collecting template and service ids from the env file
     const handleSubmit = (event) => {
         event.preventDefault();
-
         emailjs.sendForm(
             process.env.REACT_APP_SERVICE_ID,
             process.env.REACT_APP_TEMPLATE_ID,
@@ -42,16 +44,17 @@ function Modal({ onClose, suggestionText, selectedQuestions }) {
         )
             .then((response) => {
                 console.log('Email sent successfully:', response.text);
+                handleEmailSent(true);
             })
             .catch((error) => {
                 console.error('Error sending email:', error);
+                handleEmailSent(false);
             });
 
         const adminEmailData = {
             from_name: fromMessage,
             message: suggestionText,
             reply_to: fromEmail,
-            //to_name: 'Admin Name', // Replace with the actual admin's name or a suitable identifier
             to_name: name,
             user_phone: phoneNumber,
             from_email: email,
@@ -71,11 +74,12 @@ function Modal({ onClose, suggestionText, selectedQuestions }) {
             .catch((error) => {
                 console.error('Error sending email to admin:', error);
             });
-        //console.log("Selected questions:", selectedQuestions);
+        
         onClose(); // Close the modal after form submission
     };
 
     return (
+       
         <div className="modal is-active">
             <div className="modal-background"></div>
             <div className="modal-card">
@@ -83,6 +87,7 @@ function Modal({ onClose, suggestionText, selectedQuestions }) {
                     <p className="modal-card-title">Thank you, fill the below details.</p>
                     <button className="delete" aria-label="close" onClick={onClose}></button>
                 </header>
+                {/* Email modal*/}
                 <section className="modal-card-body">
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input type="hidden" name="from_name" value={fromMessage} />
@@ -140,6 +145,7 @@ function Modal({ onClose, suggestionText, selectedQuestions }) {
                 </footer>
             </div>
         </div>
+        
     );
 }
 
