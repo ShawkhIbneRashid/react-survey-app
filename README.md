@@ -43,5 +43,6 @@ We are going to use EmailJS to set up the email-sending service. After the user 
  ```node
   npm run devStart
   ```
+- I have also added a Flask server. You can use either. To run the Flask app, you need Python and its libraries such as Flask and CORS installed. 
 - Replace the variables in the `.env` file. Replace them with the template IDs, Service ID, and public key.
 - You can check the website using `npm start`, it will open the website locally on your browser.
